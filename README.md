@@ -56,12 +56,12 @@ Copie esse token para usar nas próximas requisições.
 4. Criar um Produto (POST)
 
 POST http://127.0.0.1:8000/api/products
-Authorization: Bearer seu_token
-{
-  "name": "Creatina",
-  "sku": "123456",
-  "price": 149.99
-}
+Authorization: Bearer seu_token\
+{\
+  "nome": "Creatina",\
+  "sku": "123456",\
+  "valor": 149.99\
+}\
 
 5.  Listar Produtos (GET)
 GET http://127.0.0.1:8000/api/products
@@ -73,12 +73,12 @@ Authorization: Bearer seu_token
 
 7. Atualizar um Produto (PUT)
 PUT http://127.0.0.1:8000/api/products/{id}
-Authorization: Bearer seu_token
-{
-  "name": "Creatina Monohidratada",
-  "sku": "654321",
-  "price": 99.99
-}
+Authorization: Bearer seu_token\
+{\
+  "nome": "Creatina Monohidratada",\
+  "sku": "654321",\
+  "valor": 99.99\
+}\
 
 8. Deletar um Produto (DELETE)
 DELETE http://127.0.0.1:8000/api/products/{id}
