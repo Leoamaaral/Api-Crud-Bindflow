@@ -5,11 +5,11 @@ Leonardo do Amaral
 ## Passos para implementar a API
 
 1. Configurar o banco de dados no .env
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=api_crud_bindflow
-DB_USERNAME=root
+DB_CONNECTION=mysql\
+DB_HOST=127.0.0.1\
+DB_PORT=3306\
+DB_DATABASE=api_crud_bindflow\
+DB_USERNAME=root\
 DB_PASSWORD=
 
 2. Rodar a migration
